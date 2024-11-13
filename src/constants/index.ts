@@ -1,0 +1,31 @@
+import {
+  Code,
+  Music,
+  School,
+  Mic,
+  Video,
+  Gamepad,
+  Radio,
+  Bike,
+  Shirt,
+  Laugh,
+  ScanFace,
+  Dumbbell,
+  Bitcoin,
+} from "lucide-react";
+
+export const categories = [
+  { name: "Coding", icon: Code },
+  { name: "Music", icon: Music },
+  { name: "Education", icon: School },
+  { name: "Podcast", icon: Mic },
+  { name: "Movie", icon: Video },
+  { name: "Gaming", icon: Gamepad },
+  { name: "Live", icon: Radio },
+  { name: "Sport", icon: Bike },
+  { name: "Fashion", icon: Shirt },
+  { name: "Beauty", icon: Laugh },
+  { name: "Comedy", icon: ScanFace },
+  { name: "Gym", icon: Dumbbell },
+  { name: "Crypto", icon: Bitcoin },
+];
