@@ -13,7 +13,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="md:flex hidden border-2 dark:border-gray-600 border-gray-300 rounded-sm md:w-[573px] h-[29px] items-center">
+    <div className="flex min-w-[40%] border-2 dark:border-gray-600 border-gray-300 rounded-sm md:w-[573px] h-[29px] items-center">
       <Input
         type="text"
         className="outline-none border-none focus-visible:ring-0 h-0 bg-background"
